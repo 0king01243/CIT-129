@@ -8,10 +8,6 @@ numWebsite = 0
 numTwitter = 0
 numControlPanel = 0
 
-#for x in reader:
-#    correct_split = x.split(",")[4]
-#    listofrequests.append(correct_split)
-#print(listofrequests)
 
 for row in reader:
     if row['REQUEST_ORIGIN'] == "Call Center":
@@ -33,6 +29,3 @@ print(numWebsite)
 print(numReport2GovAndroid)
 print(numReport2GoviOS)
 print(numCallCenter)
-
-#listofrequests = list(reader)
-#print(listofrequests)

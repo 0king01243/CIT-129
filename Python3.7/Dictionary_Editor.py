@@ -52,8 +52,8 @@ def options():
 
 
 def delete_option():
-    level = input("Do you want to delete a dictionary or its values(d/v) ")
-    if level == 'v':
+    level = input("Do you want to delete a dictionary or empty it(d/e) ")
+    if level == 'e':
         delete = input("Which dictionary do you want to enter:   ")
         db_list[str(test_dict(delete))] = {}
     elif level == 'd':
