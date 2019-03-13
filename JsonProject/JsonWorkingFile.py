@@ -3,7 +3,7 @@ import csv
 
 comparative_dictionary = json.load(open('json_criteria', newline=""))
 new_dictionary = {}
-print(comparative_dictionary)
+#print(comparative_dictionary)
 file = open("First_Json_file.csv",newline="")
 reader = csv.DictReader(file)
 comparative_dictionary['status'] = comparative_dictionary['planning_status']
@@ -11,7 +11,10 @@ del comparative_dictionary['planning_status']
 cleaning_dictionary = comparative_dictionary.copy()
 
 
-for x in comparative_dictionary:
+#for x in comparative_dictionary:
+#    print(x)
+
+for x in reader:
     print(x)
 '''
 for x in cleaning_dictionary:

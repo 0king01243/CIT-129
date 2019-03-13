@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="103bd434-5b95-461f-b832-ea1bb61e15cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JsonProject/json_criteria" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonProject/test_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonProject/2fb96406-813e-4031-acfe-1a82e78dc33c.csv" beforeDir="false" afterPath="$PROJECT_DIR$/JsonProject/First_Json_file.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Telepie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Telepie.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JsonProject/JsonWorkingFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/JsonProject/JsonWorkingFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3.7/Dictionary_Editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3.7/Dictionary_Editor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonProject/test_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/JsonProject/test_file.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsonProject/JsonWorkingFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -30,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JsonProject/test_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="646">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -54,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsonProject/First_Json_file.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="95" selection-start-column="85" selection-end-column="95" />
+            <state relative-caret-position="-67">
+              <caret line="298" column="145" selection-start-line="298" selection-start-column="130" selection-end-line="298" selection-end-column="145" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -85,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python3.7/Dictionary_Editor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="816">
@@ -118,6 +114,7 @@
       <find>name</find>
       <find>entry</find>
       <find>start_date</find>
+      <find>2018,2018-02-14</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,8 +133,8 @@
         <option value="$PROJECT_DIR$/Python3.7/CSV Reader.py" />
         <option value="$PROJECT_DIR$/Python3.7/Dictionary_Editor.py" />
         <option value="$PROJECT_DIR$/JsonProject/json_criteria" />
-        <option value="$PROJECT_DIR$/JsonProject/test_file.py" />
         <option value="$PROJECT_DIR$/JsonProject/JsonWorkingFile.py" />
+        <option value="$PROJECT_DIR$/JsonProject/test_file.py" />
       </list>
     </option>
   </component>
@@ -209,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.JsonWorkingFile">
+  <component name="RunManager" selected="Python.test_file">
     <configuration name="Dictionary_Editor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -317,8 +314,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.JsonWorkingFile" />
         <item itemvalue="Python.test_file" />
+        <item itemvalue="Python.JsonWorkingFile" />
         <item itemvalue="Python.Dictionary_Editor" />
         <item itemvalue="Python.formal_greeting" />
         <item itemvalue="Python.test" />
@@ -329,7 +326,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24983476" />
@@ -440,17 +437,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JsonProject/json_criteria">
+    <entry file="file://$PROJECT_DIR$/Python3.7/Dictionary_Editor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="816">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JsonProject/test_file.py">
+    <entry file="file://$PROJECT_DIR$/JsonProject/JsonWorkingFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -459,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsonProject/First_Json_file.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="95" selection-start-column="85" selection-end-column="95" />
+        <state relative-caret-position="-67">
+          <caret line="298" column="145" selection-start-line="298" selection-start-column="130" selection-end-line="298" selection-end-column="145" />
         </state>
       </provider>
       <provider editor-type-id="text-editor" />
@@ -490,20 +487,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JsonProject/JsonWorkingFile.py">
+    <entry file="file://$PROJECT_DIR$/JsonProject/json_criteria">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3.7/Dictionary_Editor.py">
+    <entry file="file://$PROJECT_DIR$/JsonProject/test_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        <state relative-caret-position="646">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
