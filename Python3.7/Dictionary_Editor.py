@@ -19,7 +19,7 @@ def test_dict(candidate):
 def editor():
     key = test_dict(input("What dictionary would you like to enter:  "))
     print(db_list[key])
-    if len(db_list[key]) == 1:
+    if len(db_list[key]) >= 1:
         new_name = input("What would you like to rename the key:  ")
         db_list[new_name] = {new_name: input("What would you like the new value to be:   ")}
         db_list[key] = db_list[new_name]

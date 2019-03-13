@@ -1,0 +1,37 @@
+import json
+import csv
+
+comparative_dictionary = json.load(open('json_criteria', newline=""))
+new_dictionary = {}
+print(comparative_dictionary)
+file = open("First_Json_file.csv",newline="")
+reader = csv.DictReader(file)
+comparative_dictionary['status'] = comparative_dictionary['planning_status']
+del comparative_dictionary['planning_status']
+cleaning_dictionary = comparative_dictionary.copy()
+
+for x in cleaning_dictionary:
+    if comparative_dictionary[x] == ['']:
+        del comparative_dictionary[x]
+
+n = 0
+for x in reader:
+    if list(str(comparative_dictionary[list(comparative_dictionary.keys())[0]])[1:][:-1]) == list(x[list(comparative_dictionary.keys())[0]]):
+        new_dictionary['entry{0}'.format(n)] = {}
+        new_dictionary['entry{0}'.format(n)] = x
+        n += 1
+del comparative_dictionary[list(comparative_dictionary.keys())[0]]
+
+cleaning_dictionary = new_dictionary.copy()
+
+for entry in range(0, len(cleaning_dictionary.keys())):
+    for x in cleaning_dictionary.keys():
+        if x in new_dictionary:
+            if list(new_dictionary[x][list(comparative_dictionary.keys())[entry]]) == list(str(comparative_dictionary[list(comparative_dictionary.keys())[entry]])[2:][:-2]):
+                print('sweet')
+            else:
+                del new_dictionary[x]
+
+
+for x in new_dictionary:
+    print(x)
