@@ -6,14 +6,18 @@ new_dictionary = {}
 file = open("First_Json_file.csv",newline="")
 reader = csv.DictReader(file)
 comparative_dictionary['status'] = comparative_dictionary['planning_status']
+# Have to get the names of the criteria file to match the overall data file
 del comparative_dictionary['planning_status']
 cleaning_dictionary = comparative_dictionary.copy()
 
+# Deleting all empty criteria to loop over later
 for x in cleaning_dictionary:
     if comparative_dictionary[x] == ['']:
         del comparative_dictionary[x]
-
+print(comparative_dictionary)
 n = 0
+
+# Creating a dictionary working off of the data that exclusively selected by the first criteria
 for x in reader:
     if list(str(comparative_dictionary[list(comparative_dictionary.keys())[0]])[1:][:-1]) == list(x[list(comparative_dictionary.keys())[0]]):
         new_dictionary['entry{0}'.format(n)] = {}
@@ -33,6 +37,5 @@ for entry in range(0, len(comparative_dictionary.keys())):
             else:
                 del new_dictionary[x]
 
-print(comparative_dictionary)
 for x in new_dictionary:
-    print(new_dictionary[x])
+    print(x,':  ',new_dictionary[x])
