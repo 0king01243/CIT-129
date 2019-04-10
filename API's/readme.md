@@ -6,4 +6,5 @@ by entry number, type, or name.
 
 ## Coding resources
 [Python BeautifulSoup Documentation](https://pypi.org/project/beautifulsoup4/)
+
 [Pokemon Data Website](https://pokemondb.net/pokedex/national)
