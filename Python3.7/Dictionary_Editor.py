@@ -2,10 +2,10 @@ db_list = {
     'dict_1': {'name_1': 'TEST11C'},
     'dict_2': {'name_2': 'TEST12C'},
 }
-
+# This line was made to create a restore point for the user to return to.
 db_backup = db_list.copy()
 
-
+# This function was designed to check if a dictionary the entered was in our data, and have them repeat until it was.
 def test_dict(candidate):
     while candidate not in list(db_list.keys()):
             print('Name does not exist')
@@ -33,22 +33,11 @@ def editor():
         del db_list[key][str(old_key)]
 
 
-def reset_option():
-    double_check = input("Are you sure you want to reset the dictionary(y/n)   ")
-    if double_check == 'y':
-        global db_list
-        db_list = db_backup.copy()
-    elif double_check == 'n':
-        return
-
-
-def dict_creator():
-    db_list[str(input("What should the name of the dictionary be:  "))] = {}
-
-
-def options():
-    movement = input("Would you like to: \n 1: Edit an Entry \n 2: Insert an Entry \n 3: Delete an Entry \n 4: Create a dictionary \n 5: Return Dictionary to starting values \n 6: Quit the program \n")
-    return movement
+def insert_option():
+    insert = test_dict(input("What dictionary would you like to enter:   "))
+    new_key = input("What should the new key name be:  ")
+    new_value = input("What should the new value be:   ")
+    db_list[str(insert)][new_key] = new_value
 
 
 def delete_option():
@@ -61,16 +50,18 @@ def delete_option():
         del db_list[str(test_dict(delete))]
 
 
-def insert_option():
-    insert = test_dict(input("What dictionary would you like to enter:   "))
-    new_key = input("What should the new key name be:  ")
-    new_value = input("What should the new value be:   ")
-    db_list[str(insert)][new_key] = new_value
+def reset_option():
+    double_check = input("Are you sure you want to reset the dictionary(y/n)   ")
+    if double_check == 'y':
+        global db_list
+        db_list = db_backup.copy()
+    elif double_check == 'n':
+        return
 
-
+# The main function loops over itself until the user inputs 6, so they are asked everytime they do an action which action to do next.
 def main():
     print(db_list)
-    movement = options()
+    movement = input("Would you like to: \n 1: Edit an Entry \n 2: Insert an Entry \n 3: Delete an Entry \n 4: Create a dictionary \n 5: Return Dictionary to starting values \n 6: Quit the program \n")
     if movement == "1":
         editor()
         main()
@@ -81,7 +72,7 @@ def main():
         delete_option()
         main()
     elif movement == "4":
-        dict_creator()
+        db_list[str(input("What should the name of the dictionary be:  "))] = {}
         main()
     elif movement == "5":
         reset_option()

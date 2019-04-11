@@ -1,20 +1,21 @@
-#1
+'''
+This comment block was the 2 exercises we did in class
+I didn't want to delete them, but didn't feel they deserved their own file
+1
 
-#numbers = "0123456789"
-#newFile = open('myFirstFile_sp19.txt', 'w')
-#for x in range(0, len(numbers)):
-#    string_1 = numbers[0:len(numbers) - x]
-#    newFile.write(string_1)
-#    newFile.write("\n")
-#newFile.close()
+numbers = "0123456789"
+newFile = open('myFirstFile_sp19.txt', 'w')
+for x in range(0, len(numbers)):
+    string_1 = numbers[0:len(numbers) - x]
+    newFile.write(string_1)
+    newFile.write("\n")
+newFile.close()
 
-#2
-#names = open('names.txt', 'r')
-#print(names.readline())
+2
+names = open('names.txt', 'r')
+print(names.readline())
 
-
-#3
-
+'''
 
 import csv
 file = open('jail.csv', newline='')
@@ -25,6 +26,7 @@ num28YearsOld = 0
 targetDate = '2018-01-01'
 valWhite = 'W'
 valBlack = 'B'
+
 
 for row in reader:
     if row['date'] == targetDate:
