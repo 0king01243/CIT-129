@@ -33,10 +33,9 @@ for x in range(0, x_range):
 
 
 '''
-Extension Exercises:
+Extension Exercise:
  
-1) Use Pascal's Triangle to calculate Fibonacci numbers (These are calculated by adding together all numbers in a diagonal 
-    starting from the right side up until you hit the left)
-    
-2) 
+Use Pascal's Triangle to calculate Fibonacci numbers (These are calculated by adding together all numbers in a diagonal 
+starting from the right side up until you hit the left)
+
 '''

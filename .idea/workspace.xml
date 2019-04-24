@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="103bd434-5b95-461f-b832-ea1bb61e15cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API's/recursion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsonProject/JsonWorkingFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/JsonProject/JsonWorkingFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API's/recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/API's/recursion.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/API's/recursion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+            <state relative-caret-position="496">
+              <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -92,8 +89,8 @@
         <option value="$PROJECT_DIR$/API's/htmlthings.py" />
         <option value="$PROJECT_DIR$/API's/government_dataAPI.py" />
         <option value="$PROJECT_DIR$/JsonProject/JsonWorkingFile.py" />
-        <option value="$PROJECT_DIR$/API's/recursion.py" />
         <option value="$PROJECT_DIR$/API's/directions.txt" />
+        <option value="$PROJECT_DIR$/API's/recursion.py" />
       </list>
     </option>
   </component>
@@ -523,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/API's/recursion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        <state relative-caret-position="496">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
         </state>
       </provider>
     </entry>
