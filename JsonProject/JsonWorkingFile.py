@@ -16,7 +16,7 @@ cleaning_dictionary = comparative_dictionary.copy()
 
 for x in reader:
     print(x)
-'''
+
 for x in cleaning_dictionary:
     if comparative_dictionary[x] == ['']:
         del comparative_dictionary[x]
@@ -49,4 +49,4 @@ for x in cleaning_dictionary.keys():
 #print(list(new_dictionary['entry0'][list(comparative_dictionary.keys())[entry]]))
 #print(list(str(comparative_dictionary[list(comparative_dictionary.keys())[entry]])[2:][:-2]))
 
-'''
+
