@@ -1,4 +1,5 @@
 # Factorials
+'''
 def factorial(number):
     if number == 1:
         print(number, " = ", end=" ")
@@ -9,6 +10,7 @@ def factorial(number):
 
 
 print(factorial(int(input('Which number would you like the factorial of?  '))))
+'''
 
 
 # Pascal's Triangle
@@ -30,6 +32,8 @@ for x in range(0, x_range):
     row = str(pascal(x))[1:][:-1].center(200)
     row = row.replace(",", " ")
     print(row)
+
+
 
 
 '''

@@ -25,9 +25,11 @@ url = 'https://pokemondb.net/pokedex/national'
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 element = soup.findAll(class_='infocard-lg-data text-muted')
-#names = soup.findAll(class_='ent-name')
-#type = input("What type of pokemon would you like to search for?")
-#pokemon_types = soup.findAll(class_ = 'itype ' + type.lower())
+names = soup.findAll(class_='ent-name')
+type = input("What type of pokemon would you like to search for?")
+pokemon_types = soup.findAll(class_ = 'itype ' + type.lower())
+
+'''
 data = {}
 y = -1
 for x in element:
@@ -35,15 +37,8 @@ for x in element:
     data.update({y: x})
 for x in data:
     print(data[x].find('small').text)
-
-
-
-
-
-
-
-
 '''
+
 counter = -1
 for x in element:
     counter += 1
@@ -53,4 +48,4 @@ for x in element:
             print(child.text)
         #print(names[counter].text)
         #print(pokemon_types[counter].text)
-'''
+
