@@ -17,7 +17,7 @@ pokemon = {"id": [], "name": [], "type": []}
 # number of calls it has had to make.  We determine this number by the variable place.
 place = 0
 for items in element:
-    pokemon['name'].append((items.text).lower())
+    pokemon['name'].append(items.text)
     place += 1
     pokemon['id'].append(place)
 

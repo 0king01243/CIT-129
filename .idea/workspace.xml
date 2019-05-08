@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="103bd434-5b95-461f-b832-ea1bb61e15cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Final Project/final_pokemon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final Project/pokemon_testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final Project/safety_testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Telepie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Telepie.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytical Packages/numpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytical Packages/numpy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/Final.py" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/Final.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/f2py.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/f2py.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Final Project/final_pokemon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+            <state relative-caret-position="1224">
+              <caret line="72" column="50" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -344,11 +336,11 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32833788" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35422343" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35422343" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39918256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -647,8 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Final Project/final_pokemon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        <state relative-caret-position="1224">
+          <caret line="72" column="50" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
