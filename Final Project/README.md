@@ -8,6 +8,7 @@ Took pokemon name, id, type, and effectiviness from a [pokemon database][idx] an
 There were many aspects of the website that we wished to scrape but unfortunately some of the data was difficult to obtain due to the new mechanics added to the later generation of games. For example: 
 
 ![Image of Charizard](Charizard.PNG)
+![Mega Charizard](MegaCharizard.PNG)
 
 Pokemon that have mega-evolutions used some of the tags that we were previously calling and made it difficult for us to get information on items such as ability.
 
