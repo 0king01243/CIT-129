@@ -13,6 +13,8 @@ There were many aspects of the website that we wished to scrape but unfortunatel
 Pokemon that have mega-evolutions used some of the tags that we were previously calling and made it difficult for us to get information on items such as ability.
 
 Make sure to use the file named "final_pokemon.py" to access the program
+## Ideas for development
+The next step in this development would be to gain more battle pertinent information such as IV's types, mega evolutions, or maybe recommended items.  The primary obstacle to doing this would be to standardize this accross all pokemon, as some have many more abilites/evolutions than others.  If this would be achievable, this would be more useful for the user.
 
 
 [idx]:https://pokemondb.net/pokedex/national
