@@ -17,7 +17,8 @@ with open('usaPowerSources2001-2018.csv') as csvfile:
     energy = [row for row in reader]
 energyDF = DataFrame(energy)
 print(energyDF)
-energyPD = pandas.read_csv('usaPowerSources2001-2018.csv',index_column)
+energyPD = pandas.read_csv('usaPowerSources2001-2018.csv',index_col = 'Month')
 print(energyPD.solar.describe())
+#$pylab
 energyPD.plot()
 

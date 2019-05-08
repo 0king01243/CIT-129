@@ -1,5 +1,5 @@
 db_list = {
-    'dict_1': {'name_1': 'TEST11C'},
+    'dict_1': {'name_1': 'TEST11C','name_3': 'tesasdgasd'},
     'dict_2': {'name_2': 'TEST12C'},
 }
 # This line was made to create a restore point for the user to return to.
@@ -19,7 +19,7 @@ def test_dict(candidate):
 def editor():
     key = test_dict(input("What dictionary would you like to enter:  "))
     print(db_list[key])
-    if len(db_list[key]) >= 1:
+    if len(db_list[key]) <= 1:
         new_name = input("What would you like to rename the key:  ")
         db_list[new_name] = {new_name: input("What would you like the new value to be:   ")}
         db_list[key] = db_list[new_name]
@@ -61,7 +61,7 @@ def reset_option():
 # The main function loops over itself until the user inputs 6, so they are asked everytime they do an action which action to do next.
 def main():
     print(db_list)
-    movement = input("Would you like to: \n 1: Edit an Entry \n 2: Insert an Entry \n 3: Delete an Entry \n 4: Create a dictionary \n 5: Return Dictionary to starting values \n 6: Quit the program \n")
+    movement = input("Would you like to: \n 1: Edit an Entry \n 2: Insert an Entry \n 3: Delete/Empty a Dictionary \n 4: Create a dictionary \n 5: Return Dictionary to starting values \n 6: Quit the program \n")
     if movement == "1":
         editor()
         main()
